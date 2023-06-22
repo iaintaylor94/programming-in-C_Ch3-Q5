@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
+
+  int sum;
+  
+  //Compute result
+  sum = 25 + 37 - 19;
+
+  /* Display results */
+  printf("The answer is %i\n",sum);
+  
   return 0;
 }
